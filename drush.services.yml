@@ -1,0 +1,8 @@
+services:
+  postdeploy.commands:
+    class: Drupal\postdeploy\Commands\PostdeployCommands
+    arguments:
+      - '@database'
+      - '@module_handler'
+    tags:
+      - { name: drush.command }

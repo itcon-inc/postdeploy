@@ -1,0 +1,6 @@
+name: Post Deploy
+type: module
+description: Provides a Drush command to run post-deployment tasks, including truncating the authmap table.
+core_version_requirement: ^10 || ^11
+version: 1.0.0
+package: Custom

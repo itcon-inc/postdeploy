@@ -1,0 +1,13 @@
+{
+    "name": "drupal/postdeploy",
+    "type": "drupal-module",
+    "description": "Provides a Drush command to run post-deployment tasks, including truncating the authmap table.",
+    "keywords": ["Drupal", "post deployment"],
+    "license": "proprietary",
+    "authors": [
+      {
+        "name": "Michael Bagnall",
+        "email": "mbagnall@itcon-inc.com"
+      }
+    ]
+}
